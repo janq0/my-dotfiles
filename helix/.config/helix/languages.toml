@@ -1,0 +1,19 @@
+[[language]]
+name = "rust"
+scope = "source.rust"
+indent = { tab-width = 4, unit = "    " }
+
+[[language]]
+name = "python"
+scope = "source.python"
+indent = { tab-width = 4, unit = "    " }
+
+[[language]]
+name = "c"
+file-types = ["c", "h"]
+indent = { tab-width = 4, unit = "    " }
+
+[[language]]
+name = "cpp"
+file-types = ["cpp", "hpp"]
+indent = { tab-width = 4, unit = "    " }

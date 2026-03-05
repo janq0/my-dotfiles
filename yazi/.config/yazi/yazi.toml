@@ -1,0 +1,5 @@
+[open]
+prepend_rules = [
+	{ mime = "text/*", use = "hx" },
+	{ mime = "application/pdf", use = "zathura" },
+]

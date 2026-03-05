@@ -1,0 +1,28 @@
+inherits = "adwaita-dark"
+
+# void hello(char *name) { printf("%s\n", name); }
+#                  ^^^^                   ^^^^
+# Make this the same color as the default UI foreground
+"variable.parameter" = "light_4"
+
+# struct S { int field; };
+#                ^^^^^
+# Make this the same color as the default UI foreground
+"variable.other.member" = "light_4"
+
+# Make comments slightly brighter
+"comment" = "dark_1"
+
+# Change the color of literals so that it isn't identical with the color of types
+"string" = "teal_1"
+"constant.character" = "teal_1"
+"constant.numeric" = "teal_1"
+
+# Use a less agressive shade of blue for functions
+"function" = "blue_1"
+"function.builtin" = "blue_1"
+"function.macro" = { fg = "blue_1", modifiers = ["bold"] }
+"function.special" = { fg = "blue_1", modifiers = ["bold"] }
+
+# Brigter operators
+"operator" = "purple_1"

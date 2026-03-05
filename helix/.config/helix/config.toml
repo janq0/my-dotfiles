@@ -1,0 +1,10 @@
+theme = "adwaita-dark-janq0"
+
+[editor]
+gutters = ["diagnostics", "spacer", "diff"]
+rulers = [81]
+bufferline = "multiple"
+color-modes = true
+
+[keys.insert]
+j = {k = "normal_mode"}
