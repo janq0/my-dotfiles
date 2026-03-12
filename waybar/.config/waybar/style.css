@@ -1,0 +1,51 @@
+window {
+    border: none;
+    border-radius: 0;
+    font-family: 'NotoSans NF', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+window#waybar {
+    background: #000000;
+    color: white;
+}
+
+tooltip {
+  background: rgba(0, 0, 0, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+    font-size: 14px;
+    background: #241F31;
+    margin: 2px 5px;
+    padding: 0px 2px;
+}
+
+#workspaces button.active {
+    font-weight: bolder;
+    background: #3D3846;
+}
+
+#workspaces .taskbar-window {
+    font-size: 14px;
+    font-family: 'NotoSans NF Cond', serif;
+    font-weight: normal;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#workspaces .taskbar-window.active {
+    border: 2px solid #62A0EA;
+    border-radius: 2px;
+    background: transparent;
+}
