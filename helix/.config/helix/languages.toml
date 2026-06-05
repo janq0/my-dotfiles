@@ -17,3 +17,21 @@ indent = { tab-width = 4, unit = "    " }
 name = "cpp"
 file-types = ["cpp", "hpp"]
 indent = { tab-width = 4, unit = "    " }
+
+[language-server.tinymist]
+command = "tinymist"
+
+[language-server.ltex]
+command = "ltex-ls"
+
+[language-server.ltex.config.ltex]
+language = "cs-CZ"
+enabled = ["typst"]
+ltex.diagnosticSeverity = "error"
+
+[language-server.ltex.config.ltex.additionalRules]
+languageModel = "cs-CZ"
+
+[[language]]
+name = "typst"
+language-servers = [ "tinymist", "ltex" ]
